@@ -399,3 +399,55 @@ footer .column > a:hover {
   font-size: 0.8rem;
   text-align: center;
 }
+
+/* Estilos para tablets (768px de largura ou menos) */
+@media (max-width: 768px) {
+  .boasvindas-bg {
+    padding: 40px; /* Reduza o preenchimento */
+    grid-template-columns: 1fr; /* Um único coluna */
+    gap: 20px;
+  }
+
+  .boasvindas h1 {
+    font-size: 36px; /* Tamanho de fonte menor */
+  }
+
+  .boasvindas-left {
+    text-align: center; /* Centralize o texto */
+  }
+
+  .btn-menu {
+    margin-left: 0; /* Remova a margem esquerda */
+  }
+
+  .especialidades-bg {
+    padding: 40px; /* Reduza o preenchimento */
+    gap: 20px;
+  }
+
+  .exp-1 h1 {
+    font-size: 32px; /* Tamanho de fonte menor */
+  }
+
+  .cards {
+    grid-template-columns: 1fr; /* Uma única coluna */
+  }
+
+  .eventoTitulo h1 {
+    font-size: 36px; /* Tamanho de fonte menor */
+    margin-top: 60px;
+  }
+
+  .eventoTitulo p {
+    margin-bottom: 20px;
+  }
+
+  .footer {
+    flex-direction: column; /* Coluna para o layout do rodapé */
+    gap: 20px;
+  }
+
+  .copyright {
+    font-size: 14px; /* Tamanho de fonte menor */
+  }
+}
