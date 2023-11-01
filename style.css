@@ -571,6 +571,9 @@ footer .column > a:hover {
     grid-template-columns: 1fr; /* Um único coluna */
     gap: 20px;
   }
+  .nav-logo a {
+    font-size: 25px;
+  }
 
   .boasvindas h1 {
     font-size: 25px; /* Tamanho de fonte menor */
@@ -588,11 +591,22 @@ footer .column > a:hover {
 
   .btn-menu {
     margin-left: 0; /* Remova a margem esquerda */
+    font-size: 1rem;
+  }
+
+  .btn1 {
+    font-size: 1rem;
+
+  }
+  .btn-menu2, .btn2 {
+    display: none;
+    visibility:hidden;
   }
 
   .especialidades-bg {
     padding: 10px; /* Reduza o preenchimento */
     gap: 20px;
+    margin-left: -10px;
   
   }
 
